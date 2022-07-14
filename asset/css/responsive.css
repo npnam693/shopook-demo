@@ -44,6 +44,15 @@
         padding-top: 6px;
         margin: 0 4px;
     }
+    .footer__heading{
+        text-align: center;
+    }
+    .footer-item__link{
+        justify-content: center;
+    }
+    .footer__download{
+        justify-content: center;
+    }
 }
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px){
@@ -108,7 +117,7 @@
         }
     }
     .header__search-checkbox:checked ~ .header__search{
-        display: flex;
+        display: flex
     }
     .header__search-history{
         position: fixed;
@@ -130,4 +139,5 @@
     .footer__container{
         padding: 0 20px;
     }
+
 }
