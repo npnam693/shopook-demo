@@ -554,7 +554,7 @@
 .header__cart-list{
     position: absolute;
     top: calc(100% + 10px);
-    right: 20px;
+    right: -33px;
     background-color: white;
     width: 400px;
     border-radius: 2px; 
